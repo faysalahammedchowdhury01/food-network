@@ -43,6 +43,11 @@ p {
   margin: 0 25px;
 }
 
+.width-1\/4 {
+  width: 25%;
+  margin: 0 25px;
+}
+
 .big-heading {
   font-size: 50px;
   color: #575757;
@@ -135,6 +140,20 @@ nav {
 
 .recipy-card .recipy-description {
   margin: 15px 0 25px 0;
+  color: #18191f;
+}
+
+/* Expert Area */
+#expert-area {
+  padding: 50px 0 100px 0;
+}
+
+.expert-box img {
+  width: 100%;
+}
+
+.name {
+  text-align: left;
   color: #18191f;
 }
 
