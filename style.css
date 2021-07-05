@@ -117,3 +117,10 @@ p {
   margin: 15px 0 25px 0;
   color: #18191f;
 }
+
+/* Footer Area */
+footer {
+  padding: 40px 0 60px 0;
+  background-color: #0b0d17;
+  text-align: center;
+}
