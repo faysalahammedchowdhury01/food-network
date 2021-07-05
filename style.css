@@ -1,3 +1,89 @@
-body {
+/* Basic */
+* {
   margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #828282;
+}
+
+/* Reuseable CSS */
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexible-content {
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.half-width {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.big-heading {
+  font-size: 50px;
+  color: #575757;
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #707070;
+}
+
+.blue-color {
+  color: #099bf8;
+}
+
+.description {
+  margin: 30px 0;
+  line-height: 1.8;
+}
+
+.btn {
+  text-decoration: none;
+  background: linear-gradient(45deg, #099bf8, #089af8);
+  box-shadow: 0px 2px 30px rgba(73, 201, 252, 0.5);
+  border-radius: 100px;
+  padding: 15px 30px;
+  color: #ffffff;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Banner Area */
+#banner-area {
+  padding: 100px 0;
+}
+
+/* About Area */
+#about-area {
+  background-image: url('images/about-me-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#about-image {
+  width: 350px;
+}
+
+/* Recipies Area */
+#recipies-area {
+  padding: 50px 0;
 }
