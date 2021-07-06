@@ -49,6 +49,7 @@ h1 {
   color: #ffffff;
   display: inline-block;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -77,7 +78,7 @@ h1 {
 }
 
 .section-title {
-  width: 50%;
+  width: 500px;
   margin: 0 auto 70px auto;
   text-align: center;
 }
@@ -104,24 +105,24 @@ h1 {
   padding: 70px 0;
 }
 
-.recipy-card {
+.recipe-card {
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
   padding: 15px;
 }
 
-.recipy-card img {
+.recipe-card img {
   border-radius: 20px;
 }
 
-.recipy-card .recipy-title {
+.recipe-card .recipe-title {
   color: #18191f;
   margin-top: 30px;
   font-size: 22px;
   font-weight: 800;
 }
 
-.recipy-card .recipy-description {
+.recipe-card .recipe-description {
   margin: 15px 0 25px 0;
   color: #18191f;
 }
