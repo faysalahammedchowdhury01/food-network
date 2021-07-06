@@ -1,11 +1,12 @@
 /* Basic */
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-  color: #828282;
+  color: #18191f;
 }
 
 /* Reuseable CSS */
@@ -28,7 +29,7 @@ p {
 }
 
 .section-title {
-  width: 60%;
+  width: 50%;
   margin: 0 auto 70px auto;
   text-align: center;
 }
@@ -48,14 +49,14 @@ p {
   margin: 0 25px;
 }
 
-.big-heading {
+h1 {
   font-size: 50px;
   color: #575757;
   font-weight: 700;
 }
 
 .heading {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   color: #707070;
 }
@@ -64,39 +65,21 @@ p {
   color: #099bf8;
 }
 
-.description {
+.paragraph-text {
   margin: 30px 0;
+  color: #828282;
 }
 
 .btn {
+  border: none;
   text-decoration: none;
-  background: linear-gradient(45deg, #099bf8, #089af8);
+  background: linear-gradient(45deg, #13b9fb, #048af7);
   box-shadow: 0px 2px 30px rgba(73, 201, 252, 0.5);
-  border-radius: 100px;
+  border-radius: 30px;
   padding: 15px 30px;
   color: #ffffff;
   display: inline-block;
   margin-top: 10px;
-}
-
-/* Nav Area */
-nav {
-  padding: 25px 0;
-}
-
-.navbar-items {
-  list-style: none;
-  justify-content: flex-end;
-}
-
-.navbar-item {
-  margin: 0 10px;
-}
-
-.navbar-item a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #828282;
 }
 
 /* Banner Area */
@@ -109,7 +92,7 @@ nav {
   background-image: url('images/about-me-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 #about-image {
@@ -134,7 +117,7 @@ nav {
 .recipy-card .recipy-title {
   color: #18191f;
   margin-top: 30px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 800;
 }
 
@@ -152,9 +135,31 @@ nav {
   width: 100%;
 }
 
-.name {
-  text-align: left;
-  color: #18191f;
+/* Contact Area */
+#contact-area {
+  padding-bottom: 70px;
+}
+
+#contact-form {
+  width: 650px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 21%);
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #828282;
+}
+
+#contact-form textarea {
+  height: 100px;
 }
 
 /* Footer Area */
@@ -162,4 +167,8 @@ footer {
   padding: 40px 0 60px 0;
   background-color: #0b0d17;
   text-align: center;
+}
+
+footer .logo {
+  color: #828282;
 }
